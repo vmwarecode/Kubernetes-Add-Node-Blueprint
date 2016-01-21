@@ -1,0 +1,13 @@
+name: "auto-generated-pkg-d6becec8-8e80-4c45-82a7-615b62f1f9cd"
+productVersion: "7.0.0-SNAPSHOT"
+data:
+- locator: "composite-blueprint/AddMinion.yaml"
+  name: "AddMinion"
+  description: "AddMinion"
+  dependencies:
+  - "software-component/Software.KubeMinionAddRHEL.yaml"
+- locator: "software-component/Software.KubeMinionAddRHEL.yaml"
+  name: "Kube-Minion-Add-RHEL"
+  description: "Adds an additional Minion to a Kubernetes deployment. This requires\
+    \ the Kubernetes Blueprint. "
+exportTime: "2016-01-19T20:46:47.753Z"
